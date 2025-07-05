@@ -1,0 +1,32 @@
+[
+  {
+    "session_id": "0f4539a9-c219-488e-90ab-c53cb3c048f1",
+    "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+    "normalized_query": "please go to the google form at httpsdocsgooglecomformsde1faipqlseab3ot9c0ike8ka7x7b74eo4oluhj2x7rvh6sap_zwuque7aviewform and fill it out with the following information is heshe married yes what course is heher in the school of ai which course is heshe taking eag what is hisher email id test123testgmailcom what is the name of your master shivansh what is hisher date of birth 15 aug 2003please complete and but dont submit the form only fill the details",
+    "named_entities": [
+      "the google form"
+    ],
+    "summary_output": "The Google Form located at [https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform) has been filled with the following information:\n\n*   **Is he/she married?**: Yes\n*   **What course is he/her in?**: The school of AI\n*   **Which course is he/she taking?**: EAG\n*   **What is his/her email id?**: test123test@gmail.com\n*   **What is the name of your master?**: Shivansh\n*   **What is his/her Date of Birth?**: 15 Aug 2003\n\nThe process stopped before submitting the form, as requested.",
+    "timestamp": "2025-07-05T08:38:44Z"
+  },
+  {
+    "session_id": "46f9ed04-d323-41d1-84a9-de299efd9ef9",
+    "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh Yadav\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+    "normalized_query": "please go to the google form at httpsdocsgooglecomformsde1faipqlseab3ot9c0ike8ka7x7b74eo4oluhj2x7rvh6sap_zwuque7aviewform and fill it out with the following information is heshe married yes what course is heher in the school of ai which course is heshe taking eag what is hisher email id test123testgmailcom what is the name of your master shivansh yadav what is hisher date of birth 15 aug 2003please complete and but dont submit the form only fill the details",
+    "named_entities": [
+      "the google form"
+    ],
+    "summary_output": "I have filled out the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform with the following information, but have **not submitted** it:\n\n*   **Is he/she married?**: Yes\n*   **What course is he/her in?**: The school of AI\n*   **Which course is he/she taking?**: EAG\n*   **What is his/her email id?**: test123test@gmail.com\n*   **What is the name of your master?**: Shivansh Yadav (Note: The provided response does not include the name of the master, as this field was not successfully filled.)\n*   **What is his/her Date of Birth?**: 15 Aug 2003 (Note: The provided response does not include the date of birth, as this field was not successfully filled.)",
+    "timestamp": "2025-07-05T16:18:25Z"
+  },
+  {
+    "session_id": "ee9cc354-7176-43a9-9bc8-4c381b3e5151",
+    "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh Yadav\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and  submit the form .",
+    "normalized_query": "please go to the google form at httpsdocsgooglecomformsde1faipqlseab3ot9c0ike8ka7x7b74eo4oluhj2x7rvh6sap_zwuque7aviewform and fill it out with the following information is heshe married yes what course is heher in the school of ai which course is heshe taking eag what is hisher email id test123testgmailcom what is the name of your master shivansh yadav what is hisher date of birth 15 aug 2003please complete and submit the form",
+    "named_entities": [
+      "the google form"
+    ],
+    "summary_output": "The Google Form at [https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform) has been successfully filled with the following information and submitted:\n\n*   **Is he/she married?**: Yes\n*   **What course is he/her in?**: The school of AI\n*   **Which course is he/she taking?**: EAG\n*   **What is his/her email id?**: test123test@gmail.com\n*   **What is the name of your master?**: Shivansh Yadav\n*   **What is his/her Date of Birth?**: 15 Aug 2003",
+    "timestamp": "2025-07-05T16:22:10Z"
+  }
+]

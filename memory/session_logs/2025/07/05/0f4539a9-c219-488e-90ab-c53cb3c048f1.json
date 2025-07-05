@@ -1,0 +1,281 @@
+{
+  "context": {
+    "session_id": "0f4539a9-c219-488e-90ab-c53cb3c048f1",
+    "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+    "globals": {
+      "current_url": "https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform"
+    },
+    "memory": [
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Navigated to: https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Clicked element with ID: 6",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Clicked element with ID: 3",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Entered 'The school of AI' text in field with index: 7",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Entered 'test123test@gmail.com' text in field with index: 11",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Entered '15 Aug 2003' text in field with index: 12",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Entered 'Shivansh' text in field with index: 13",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Clicked element with ID: 6",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Clicked element with ID: 3",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "result_type": "browser_action",
+        "success": true,
+        "action": "unknown",
+        "message": "Entered 'The school of AI' text in field with index: 7",
+        "error": "",
+        "agent": "browserAgent"
+      },
+      {
+        "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+        "result_requirement": "Final summary",
+        "summarizer_summary": "The Google Form located at [https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform) has been filled with the following information:\n\n*   **Is he/she married?**: Yes\n*   **What course is he/her in?**: The school of AI\n*   **Which course is he/she taking?**: EAG\n*   **What is his/her email id?**: test123test@gmail.com\n*   **What is the name of your master?**: Shivansh\n*   **What is his/her Date of Birth?**: 15 Aug 2003\n\nThe process stopped before submitting the form, as requested.",
+        "confidence": 0.95,
+        "original_goal_achieved": true,
+        "route": "summarize"
+      }
+    ],
+    "graph": {
+      "directed": true,
+      "multigraph": false,
+      "graph": {},
+      "nodes": [
+        {
+          "data": {
+            "index": "ROOT",
+            "description": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+            "type": "ROOT",
+            "status": "completed",
+            "result": null,
+            "conclusion": null,
+            "error": null,
+            "perception": {
+              "entities": [
+                "Google Form",
+                "https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform",
+                "married",
+                "school of AI",
+                "EAG",
+                "test123test@gmail.com",
+                "Shivansh",
+                "15 Aug 2003",
+                "fill",
+                "details"
+              ],
+              "result_requirement": "Navigate to the provided Google Form and fill it with the specified information, but do not submit it.",
+              "original_goal_achieved": false,
+              "reasoning": "The query explicitly asks to navigate to a Google Form and fill it out. This involves web navigation and interaction, therefore, it should be routed to the browser agent.",
+              "local_goal_achieved": false,
+              "local_reasoning": "Browser operations are required to navigate to the form and input the provided information.",
+              "last_tooluse_summary": "None",
+              "solution_summary": "The task is to fill the Google Form with given details without submitting it.",
+              "confidence": "0.95",
+              "route": "browser"
+            },
+            "from_step": null
+          },
+          "id": "ROOT"
+        }
+      ],
+      "links": []
+    }
+  },
+  "session": {
+    "session_id": "0f4539a9-c219-488e-90ab-c53cb3c048f1",
+    "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+    "perception_snapshots": [
+      {
+        "run_id": "0f4539a9-c219-488e-90ab-c53cb3c048f1-P",
+        "snapshot_type": "initial",
+        "entities": [
+          "Google Form",
+          "https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform",
+          "married",
+          "school of AI",
+          "EAG",
+          "test123test@gmail.com",
+          "Shivansh",
+          "15 Aug 2003",
+          "fill",
+          "details"
+        ],
+        "result_requirement": "Navigate to the provided Google Form and fill it with the specified information, but do not submit it.",
+        "original_goal_achieved": false,
+        "reasoning": "The query explicitly asks to navigate to a Google Form and fill it out. This involves web navigation and interaction, therefore, it should be routed to the browser agent.",
+        "local_goal_achieved": false,
+        "local_reasoning": "Browser operations are required to navigate to the form and input the provided information.",
+        "last_tooluse_summary": "None",
+        "solution_summary": "The task is to fill the Google Form with given details without submitting it.",
+        "confidence": "0.95",
+        "route": "browser",
+        "timestamp": "...",
+        "return_to": ""
+      }
+    ],
+    "decision_snapshots": [],
+    "execution_snapshots": [],
+    "summarizer_snapshots": [
+      {
+        "run_id": "b1f76ec7-08c6-4dd7-8fcb-ac7902227f0f",
+        "input": {
+          "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+          "globals_schema": {
+            "current_url": "https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform"
+          },
+          "plan_graph": {
+            "directed": true,
+            "multigraph": false,
+            "graph": {},
+            "nodes": [
+              {
+                "data": {
+                  "index": "ROOT",
+                  "description": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+                  "type": "ROOT",
+                  "status": "completed",
+                  "result": null,
+                  "conclusion": null,
+                  "error": null,
+                  "perception": {
+                    "entities": [
+                      "Google Form",
+                      "https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform",
+                      "married",
+                      "school of AI",
+                      "EAG",
+                      "test123test@gmail.com",
+                      "Shivansh",
+                      "15 Aug 2003",
+                      "fill",
+                      "details"
+                    ],
+                    "result_requirement": "Navigate to the provided Google Form and fill it with the specified information, but do not submit it.",
+                    "original_goal_achieved": false,
+                    "reasoning": "The query explicitly asks to navigate to a Google Form and fill it out. This involves web navigation and interaction, therefore, it should be routed to the browser agent.",
+                    "local_goal_achieved": false,
+                    "local_reasoning": "Browser operations are required to navigate to the form and input the provided information.",
+                    "last_tooluse_summary": "None",
+                    "solution_summary": "The task is to fill the Google Form with given details without submitting it.",
+                    "confidence": "0.95",
+                    "route": "browser"
+                  },
+                  "from_step": null
+                },
+                "id": "ROOT"
+              }
+            ],
+            "links": []
+          },
+          "perception": {
+            "entities": [
+              "Google Form",
+              "https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform",
+              "married",
+              "school of AI",
+              "EAG",
+              "test123test@gmail.com",
+              "Shivansh",
+              "15 Aug 2003",
+              "fill",
+              "details"
+            ],
+            "result_requirement": "Navigate to the provided Google Form and fill it with the specified information, but do not submit it.",
+            "original_goal_achieved": true,
+            "reasoning": "The query explicitly asks to navigate to a Google Form and fill it out. This involves web navigation and interaction, therefore, it should be routed to the browser agent.",
+            "local_goal_achieved": true,
+            "local_reasoning": "Browser operations are required to navigate to the form and input the provided information.",
+            "last_tooluse_summary": "The automation successfully filled out the Google Form with the provided information without submitting it.  All requested fields were populated as requested.",
+            "solution_summary": "The Google Form at the specified URL was filled with the following details: Is he/she married?: Yes, What course is he/her in?: The school of AI, Which course is he/she taking?: EAG, What is his/her email id?: test123test@gmail.com, What is the name of your master?: Shivansh, What is his/her Date of Birth?: 15 Aug 2003. The form filling was stopped before submission.",
+            "confidence": "0.95",
+            "route": "browser",
+            "browser_results": {
+              "goal_achieved": true,
+              "extracted_content": "The Google Form at the specified URL was filled with the following details: Is he/she married?: Yes, What course is he/her in?: The school of AI, Which course is he/she taking?: EAG, What is his/her email id?: test123test@gmail.com, What is the name of your master?: Shivansh, What is his/her Date of Birth?: 15 Aug 2003. The form filling was stopped before submission.",
+              "summary": "The automation successfully filled out the Google Form with the provided information without submitting it.  All requested fields were populated as requested.",
+              "key_findings": [
+                "The form was successfully accessed and interacted with.",
+                "All the provided answers were successfully entered into the corresponding fields.",
+                "The email field was not included in browser results but was requested to be filled."
+              ],
+              "confidence": 0.8
+            }
+          }
+        },
+        "summary_output": "The Google Form located at [https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform) has been filled with the following information:\n\n*   **Is he/she married?**: Yes\n*   **What course is he/her in?**: The school of AI\n*   **Which course is he/she taking?**: EAG\n*   **What is his/her email id?**: test123test@gmail.com\n*   **What is the name of your master?**: Shivansh\n*   **What is his/her Date of Birth?**: 15 Aug 2003\n\nThe process stopped before submitting the form, as requested.",
+        "success": true,
+        "error": null,
+        "timestamp": "2025-07-05T08:38:44Z",
+        "return_to": ""
+      }
+    ],
+    "final_summary": "The Google Form located at [https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform) has been filled with the following information:\n\n*   **Is he/she married?**: Yes\n*   **What course is he/her in?**: The school of AI\n*   **Which course is he/she taking?**: EAG\n*   **What is his/her email id?**: test123test@gmail.com\n*   **What is the name of your master?**: Shivansh\n*   **What is his/her Date of Birth?**: 15 Aug 2003\n\nThe process stopped before submitting the form, as requested.",
+    "status": "success",
+    "completed_at": "2025-07-05T08:40:08.666079"
+  },
+  "status": "success",
+  "final_step_id": null,
+  "reason": "Summarized successfully",
+  "timestamp": "2025-07-05T08:40:08.668085",
+  "original_query": "Query 1: Please go to the Google Form at https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform and fill it out with the following information:- Is he/she married?: \"Yes\"- What course is he/her in?: \"The school of AI\"  - Which course is he/she taking?: \"EAG\"- What is his/her email id?: \"test123test@gmail.com\"- What is the name of your master?: \"Shivansh\"- What is his/her Date of Birth?: \"15 Aug 2003\"Please complete and but dont submit the form only fill the details .",
+  "final_summary": "The Google Form located at [https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform](https://docs.google.com/forms/d/e/1FAIpQLSeaB3Ot9C0Ike8ka7X7B74Eo4OLuhj2x7rvH6SaP_ZWUQUE7A/viewform) has been filled with the following information:\n\n*   **Is he/she married?**: Yes\n*   **What course is he/her in?**: The school of AI\n*   **Which course is he/she taking?**: EAG\n*   **What is his/her email id?**: test123test@gmail.com\n*   **What is the name of your master?**: Shivansh\n*   **What is his/her Date of Birth?**: 15 Aug 2003\n\nThe process stopped before submitting the form, as requested."
+}
